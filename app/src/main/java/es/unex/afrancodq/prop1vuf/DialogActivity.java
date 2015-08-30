@@ -499,7 +499,6 @@ public class DialogActivity extends AppCompatActivity {
         Button editDataAccount = (Button) findViewById(R.id.editDataAccount);
         Button about = (Button) findViewById(R.id.about);
         Button closeSession = (Button) findViewById(R.id.closeSession);
-        Button exitApp = (Button) findViewById(R.id.exit);
 
         backToAccount.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v){
@@ -533,11 +532,6 @@ public class DialogActivity extends AppCompatActivity {
             }
         });
 
-        exitApp.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v){
-                onDestroy();
-            }
-        });
 
     }
 
@@ -590,7 +584,6 @@ public class DialogActivity extends AppCompatActivity {
     public void settingsNoAccount(){
         Button backToAccount = (Button) findViewById(R.id.backToInit);
         Button about = (Button) findViewById(R.id.about);
-        Button exitApp = (Button) findViewById(R.id.exit);
 
         backToAccount.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v){
@@ -610,11 +603,6 @@ public class DialogActivity extends AppCompatActivity {
             }
         });
 
-        exitApp.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v){
-                DialogActivity.this.onDestroy();
-            }
-        });
     }
 
     public void subjectSettings(){
