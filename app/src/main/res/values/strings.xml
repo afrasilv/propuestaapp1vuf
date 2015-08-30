@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PropuestaApp1Vuf</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="content">Aplicación desarrollada por Alejandro Franco Silva como primera propuesta del TFG sobre Realidad Aumentada</string>
+    <string name="deleteSubject">Esto borrará todas las animaciones, temas y configuración que tenga de ella... </string>
+    <string name="deleteFinalSubject">¿Está seguro que desea borrarla? Esto borrará todas las animaciones, temas y configuración que tenga de ella... Esta acción no se puede deshacer.</string>
+    <string name="deleteTopic">¿Está seguro que desea borrar este tema? Esto borrará todas las animaciones y configuración que tenga de él... </string>
+    <string name="deleteAccount">¿Está seguro que desea borrar la cuenta? Esto borrará todas los datos suyos y de sus asignaturas.</string>
+    <string-array name="live_time_array">
+        <item>1 hora</item>
+        <item>2 horas</item>
+        <item>1 día</item>
+        <item>1 semana</item>
+        <item>Siempre</item>
+    </string-array>
+</resources>

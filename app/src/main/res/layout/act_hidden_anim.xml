@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/dialog_activity_content"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/backToLiveAr"
+            android:text="Animación en Vivo"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:drawableLeft="@drawable/ic_arrow_back_black_18dp"></Button>
+
+        <ListView
+            android:id="@+id/listHideAnim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/backToLiveAr"
+            android:clickable="true"></ListView>
+
+    </RelativeLayout>
+</RelativeLayout>

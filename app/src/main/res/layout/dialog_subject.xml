@@ -1,0 +1,69 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/dialog_subject_content"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <RelativeLayout
+        android:layout_width="370dp"
+        android:layout_height="320dp"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:text="Medium Text"
+            android:id="@+id/nameSubject"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical|center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/nameTopic"
+            android:layout_below="@id/nameSubject"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical|center" />
+
+        <Button
+            style="@style/BackButton"
+            android:id="@+id/backToTopicsSubjects"
+            android:text="Temas"
+            android:layout_below="@id/nameTopic"></Button>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/actHideAnim"
+            android:text="Activar Animación Oculta"
+            android:layout_below="@+id/backToTopicsSubjects"></Button>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/addAnim"
+            android:text="Añadir Animación"
+            android:layout_below="@+id/actHideAnim"></Button>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editAnim"
+            android:text="Editar Animación"
+            android:layout_below="@+id/addAnim"></Button>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/settingsTopic"
+            android:text="Configuración"
+            android:layout_alignParentBottom="true"></Button>
+
+    </RelativeLayout>
+</RelativeLayout>

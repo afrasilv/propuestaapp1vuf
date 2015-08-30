@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/dialog_activity_content"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button
+            style="@style/BackButton"
+
+            android:id="@+id/backToLiveAr"
+            android:text="Animación en Vivo"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"></Button>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameAnim"
+            android:hint="Nombre de la Animación"
+            android:singleLine="true"
+            android:layout_below="@+id/backToLiveAr"
+            android:layout_centerHorizontal="true" />
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pathFile"
+            android:hint="Introducir Animación"
+            android:singleLine="true"
+            android:layout_below="@+id/nameAnim" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/selectFile"
+            android:text="Seleccionar"
+            android:layout_alignTop="@+id/pathFile"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"></Button>
+
+        <Spinner
+            android:id="@+id/spinner_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pathFile"></Spinner>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_anim"
+            android:text="Añadir animación"
+            android:layout_below="@+id/spinner_time"></Button>
+
+    </RelativeLayout>
+</RelativeLayout>

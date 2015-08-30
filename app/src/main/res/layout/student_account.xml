@@ -1,0 +1,40 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/dialog_activity_content"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center">
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/favsStudent"
+            android:text="Favoritas"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"></Button>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/changeSubject"
+            android:text="Cambiar Asignatura"
+            android:layout_above="@+id/settingsStudent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"></Button>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/settingsStudent"
+            android:text="Configuración"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"></Button>
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/dialog_activity_content"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    >
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button
+            style="@style/BackButton"
+            android:id="@+id/backToInit"
+            android:text="Inicio"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"></Button>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/username"
+            android:hint="Nombre de usuario"
+            android:singleLine="true"
+            android:layout_below="@+id/backToInit"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pass_login"
+            android:hint="Contraseña"
+            android:singleLine="true"
+            android:layout_below="@+id/username"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/confirm_pass_login"
+            android:hint="Confirmar contraseña"
+            android:singleLine="true"
+            android:layout_below="@+id/pass_login"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email_login"
+            android:hint="Email del usuario"
+            android:singleLine="true"
+            android:layout_below="@+id/confirm_pass_login"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/confirm_email_login"
+            android:hint="Confirmar email del usuario"
+            android:singleLine="true"
+            android:layout_below="@+id/email_login"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/register"
+            android:text="Registrar cuenta"
+            android:layout_below="@+id/confirm_email_login"></Button>
+
+    </RelativeLayout>
+</RelativeLayout>

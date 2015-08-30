@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/DrawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="7dp"
+    android:orientation="horizontal"
+    xmlns:fab="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floating_button_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="false"
+            fab:fab_colorNormal="@color/blue"
+            fab:fab_colorPressed="@color/blue_pressed"
+            fab:fab_icon="@drawable/ic_settings_black_48dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="16dp"/>
+
+    </RelativeLayout>
+
+
+
+</android.support.v4.widget.DrawerLayout>

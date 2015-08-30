@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/dialog_activity_content"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button
+            style="@style/BackButton"
+            android:id="@+id/backToAccount"
+            android:text="Cuenta"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"></Button>
+
+        <ListView
+            android:id="@+id/listTeacherSubjects"
+            android:layout_width="wrap_content"
+            android:layout_height="230dp"
+            android:layout_below="@id/backToAccount"
+            android:clickable="true"></ListView>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/settingsSubject"
+            android:text="Configuración"
+            android:layout_below="@id/listTeacherSubjects"></Button>
+
+    </RelativeLayout>
+</RelativeLayout>

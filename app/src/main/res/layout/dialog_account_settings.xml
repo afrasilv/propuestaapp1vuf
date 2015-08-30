@@ -1,0 +1,49 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/dialog_account_settings_content"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <RelativeLayout
+        android:layout_width="230dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center">
+        <Button
+            style="@style/BackButton"
+            android:id="@+id/backToAccount"
+            android:text="Cuenta"
+            android:drawableLeft="@drawable/ic_arrow_back_black_18dp"></Button>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editDataAccount"
+            android:text="Modificar Datos de la Cuenta"
+            android:layout_below="@+id/backToAccount"></Button>
+
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/about"
+            android:text="Acerca de..."
+            android:layout_below="@+id/editDataAccount"></Button>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/closeSession"
+            android:text="Cerrar Sesión"
+            android:layout_above="@+id/exit"></Button>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/exit"
+            android:text="Salir"
+            android:layout_alignParentBottom="true"></Button>
+
+    </RelativeLayout>
+</RelativeLayout>

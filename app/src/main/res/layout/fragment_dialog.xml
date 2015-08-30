@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="alex.unex.es.propuestaapp2.DialogoFragment">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <TextView
+            android:id="@+id/textViewNombreApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            android:text="TemplateTFG"
+            android:textSize="24dp"
+            android:textColor="#212121" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginBottom="10dp"
+            android:background="#D32F2F" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Autores"
+            android:textColor="#191919"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewAutor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:text="Alejandro Franco Silva"
+            android:textColor="#727272"
+            android:layout_marginBottom="5dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:background="#728C93" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Datos"
+            android:textColor="#191919"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewOpenData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Los datos son míos. Porque soy un ansioso."
+            android:autoLink="all"
+            android:textColor="#727272"
+            android:layout_marginBottom="5dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

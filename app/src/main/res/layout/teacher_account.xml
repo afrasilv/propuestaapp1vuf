@@ -1,0 +1,42 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/teacher_account_content"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <RelativeLayout
+        android:layout_width="230dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center">
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mySubjects"
+            android:text="Mis Asignaturas"
+            android:layout_alignParentTop="true"></Button>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/liveAnim"
+            android:text="Publicar animacion (Todas las Asignaturas)"
+            android:layout_below="@+id/mySubjects"></Button>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editGraph"
+            android:text="Editar Graficos"
+            android:layout_below="@+id/liveAnim"></Button>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/settingsTeacher"
+            android:text="Configuración"
+            android:layout_alignParentBottom="true"></Button>
+
+    </RelativeLayout>
+</RelativeLayout>

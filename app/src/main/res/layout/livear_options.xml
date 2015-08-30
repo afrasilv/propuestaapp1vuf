@@ -1,0 +1,35 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/dialog_activity_content"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button
+            style="@style/BackButton"
+            android:id="@+id/backToAccount"
+            android:text="Cuenta"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"></Button>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/addNewAnim"
+            android:text="Añadir nueva animación"
+            android:layout_below="@+id/backToAccount"></Button>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ActivateHideAnim"
+            android:text="Activar Animación Oculta"
+            android:layout_below="@+id/addNewAnim"></Button>
+
+    </RelativeLayout>
+</RelativeLayout>

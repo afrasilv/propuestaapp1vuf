@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Archivos de Programa\AndroidSdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="E:\proptfg\propuestaapp1vuf\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.0-1d0df4b81150ce4ed2962811f525d361e043bd2d.jar" />
+    </item>
+    <item
+        jar="E:\proptfg\propuestaapp1vuf\app\build\intermediates\exploded-aar\com.afollestad\material-dialogs\0.7.9.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="278810b7c706bc3786d4dcb3f93f9afbb49e7c9a">
+        <dex dex="E:\proptfg\propuestaapp1vuf\app\build\intermediates\pre-dexed\debug\classes-aa57e5a51718d9a4783aec08cf4a63c6c2ec3a9f.jar" />
+    </item>
+    <item
+        jar="E:\proptfg\propuestaapp1vuf\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="E:\proptfg\propuestaapp1vuf\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-b2a6de48aa9b4dfe3c4bd62fe38e6bcbcf7061af.jar" />
+    </item>
+    <item
+        jar="E:\proptfg\propuestaapp1vuf\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="E:\proptfg\propuestaapp1vuf\app\build\intermediates\pre-dexed\debug\classes-bcb187f49edf2d81ba2c2f08958a5f6f3cc2c69d.jar" />
+    </item>
+    <item
+        jar="E:\proptfg\propuestaapp1vuf\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="E:\proptfg\propuestaapp1vuf\app\build\intermediates\pre-dexed\debug\classes-fd0a47ab8e37177de1ed44a787bc71e9d1bb44f3.jar" />
+    </item>
+    <item
+        jar="E:\proptfg\propuestaapp1vuf\app\libs\QCARUnityPlayer.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="278d359a6c377e84179c62c01c700a7550f37bfc">
+        <dex dex="E:\proptfg\propuestaapp1vuf\app\build\intermediates\pre-dexed\debug\QCARUnityPlayer-fe4feb8f560ac02e9292ca3aaa3f171bdfc71c6b.jar" />
+    </item>
+    <item
+        jar="E:\proptfg\propuestaapp1vuf\app\libs\unity-classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="309dcaea99b5c74e69975f54d76de7bff555a60e">
+        <dex dex="E:\proptfg\propuestaapp1vuf\app\build\intermediates\pre-dexed\debug\unity-classes-a8438b758f9ea883a8dda5b867ed74945dd08238.jar" />
+    </item>
+    <item
+        jar="E:\proptfg\propuestaapp1vuf\app\build\intermediates\exploded-aar\com.getbase\floatingactionbutton\1.10.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="078cad8ebaa25b1eb1790bd622b3a8ae27c9cc7a">
+        <dex dex="E:\proptfg\propuestaapp1vuf\app\build\intermediates\pre-dexed\debug\classes-38bce094e40480e60c963d27df263b7bdc262d9c.jar" />
+    </item>
+    <item
+        jar="E:\proptfg\propuestaapp1vuf\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="e1fa5e1123997a55e3ed65b44892993ff4b58cfe">
+        <dex dex="E:\proptfg\propuestaapp1vuf\app\build\intermediates\pre-dexed\debug\classes-0e77ef20ac179e0abb64db543958bba195720739.jar" />
+    </item>
+    <item
+        jar="E:\proptfg\propuestaapp1vuf\app\libs\Vuforia.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="12af13818028a8f3638fb3ed1e2e0378e65ac6d3">
+        <dex dex="E:\proptfg\propuestaapp1vuf\app\build\intermediates\pre-dexed\debug\Vuforia-613f5f1f6b8221517fd7024394710198dc0d5771.jar" />
+    </item>
+    <item
+        jar="E:\proptfg\propuestaapp1vuf\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="40e7757d9b06db670062ddb3cf5b30c129b2fd8c">
+        <dex dex="E:\proptfg\propuestaapp1vuf\app\build\intermediates\pre-dexed\debug\classes-6bd89f574ad738625951cc864feb6efa03d10bc3.jar" />
+    </item>
+
+</items>

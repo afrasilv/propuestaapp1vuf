@@ -1,0 +1,81 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/dialog_activity_content"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    >
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button
+            style="@style/BackButton"
+            android:id="@+id/backToSettings"
+            android:text="Configuración"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"></Button>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:id="@+id/username"
+            android:hint="Nombre de usuario"
+            android:singleLine="true"
+            android:layout_below="@+id/backToSettings"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:id="@+id/pass_login"
+            android:hint="Contraseña"
+            android:singleLine="true"
+            android:layout_below="@+id/username"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:id="@+id/confirm_pass_login"
+            android:hint="Confirmar contraseña"
+            android:singleLine="true"
+            android:layout_below="@+id/pass_login"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:id="@+id/email_login"
+            android:hint="Email del usuario"
+            android:singleLine="true"
+            android:layout_below="@+id/confirm_pass_login"
+            android:layout_centerHorizontal="true" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/email_login">
+
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/deleteAccount"
+                android:text="Eliminar cuenta"
+                android:textColor="@color/red"
+                android:layout_gravity="right"></Button>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/editAccountData"
+                android:text="Modificar datos de la cuenta"></Button>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</RelativeLayout>
