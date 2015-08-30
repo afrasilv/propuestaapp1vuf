@@ -54,21 +54,12 @@
             android:layout_below="@+id/confirm_pass_login"
             android:layout_centerHorizontal="true" />
 
-        <EditText
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/confirm_email_login"
-            android:hint="Confirmar email del usuario"
-            android:singleLine="true"
-            android:layout_below="@+id/email_login"
-            android:layout_centerHorizontal="true" />
-
         <Button
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:id="@+id/register"
             android:text="Registrar cuenta"
-            android:layout_below="@+id/confirm_email_login"></Button>
+            android:layout_below="@+id/email_login"></Button>
 
     </RelativeLayout>
 </RelativeLayout>
